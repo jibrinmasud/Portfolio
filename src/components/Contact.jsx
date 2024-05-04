@@ -4,7 +4,7 @@ import {AiFillLinkedin, AiFillGithub, AiFillGoogleCircle} from 'react-icons/ai'
 
 const Contact = () => {
   return (
-    <div className='p-6 max-w-[1200px] mx-auto glass' id='contact'> 
+    <div className='p-6 max-w-[1200px] mt-10 mx-auto glass' id='contact'> 
       
       <div className='mx-auto ma-w-[600px] text-center p-6'>
         <h2 className='text-gray-500 md:text-5xl text-5xl font-semibold'>Send Me A Message</h2>
@@ -24,8 +24,8 @@ const Contact = () => {
           </h2> */}
           <form action='https://getform.io/f/lajkymgb'method='POST' >
             <div className='space-y-4 mb-6'>
-              <input type="text" id='name' name='name' placeholder='Enter Your Name' className='w-full border-gray-400 py-2 px-4 border rounded' />
-              <input type="text" id='email' name='email' placeholder='Enter Your Email' className='w-full border-gray-400 py-2 px-4 border rounded' />
+              <input type="text" id='name' name='name' placeholder='Enter Your Name' required className='w-full border-gray-400 py-2 px-4 border rounded' />
+              <input type="text" id='email' name='email' placeholder='Enter Your Email' required className='w-full border-gray-400 py-2 px-4 border rounded' />
               <textarea name="message" id="message" placeholder='Enter Your Message' cols="30" rows="5" className='w-full border-gray-400 text-black py-2 px-4 border rounded'></textarea>
 
             </div>

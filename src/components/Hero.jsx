@@ -7,9 +7,9 @@ import { TypeAnimation } from 'react-type-animation'
 const Hero = () => {
   return (
     <div className='relative grid sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 overflow-hidden md:overflow-visible' id='hero'>
-      <img className=' hidden md:block absolute z-[-1] w-[400px] bottom-0 left-[-170px] ' src={notebookL}alt="" />
+      {/* <img className=' hidden md:block absolute z-[-1] w-[400px] bottom-0 left-[-170px] ' src={notebookL}alt="" />
       <img className='absolute z-[-1] w-[400px] bottom-[190px] md:bottom-0 md:left-[-320px]' src={notbookM}alt="" />
-      <img className='absolute z-[-1] w-[200px] bottom-[200px] md:bottom-[500px] left-[-450px]' src={mobileR} alt="" />
+      <img className='absolute z-[-1] w-[200px] bottom-[200px] md:bottom-[500px] left-[-450px]' src={mobileR} alt="" /> */}
 
       <div className='glass px-5 col-span-2 my-auto z-[-1]'>
         <h2 className='text-white text-4xl sm:text-5lg lg:text-8xl font-bold p-4 md:p-0'>
