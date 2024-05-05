@@ -1,5 +1,3 @@
-import React from 'react'
-import Reveal, { Bounce } from 'react-awesome-reveal'
 import Html from '../assets/html.png'
 import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
@@ -9,6 +7,7 @@ import Bootstrap from '../assets/bootstrap.jpeg'
 import Csharp from '../assets/csharp.png'
 import Dotnetcore from'../assets/Dotnetcore.png'
 import Github from '../assets/githubmark.png'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
 
@@ -83,11 +82,11 @@ const Skills = () => {
         {
           techs.map(({id, src, title, style}) =>(
 
-           <div key={id}
-             className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
-            <img src={src} className='w-20 mx-auto' />
+           <motion.div drag dragConstraint={{left:0, right: 0, top:0, bottom:0 }}  whileInView={{scale:[0,1], rotate:360, x:[0, 100,-100,0]}} key={id}
+             className={`shadow-md py-2 rounded-lg ${style}`}>
+            <img  src={src} className='w-20 mx-auto' />
             <p className='mt-4'>{title}</p>
-          </div>))
+          </motion.div>))
         }
       </div>
      </div>

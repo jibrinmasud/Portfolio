@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
 
 const ProgressBar = () => {
     const[nav, setNav] = useState(false);
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white glass sticky top-0 z-50'>
         <div>
-            <h1 className='text-2xl ml-2'>Jibrin Masud</h1>
+            <motion.h1 whileHover={{scale:0.1}} className='text-2xl ml-2 cursor-pointer'>Jibrin Masud</motion.h1>
         </div>
 
         <ul className=' hidden md:flex'>

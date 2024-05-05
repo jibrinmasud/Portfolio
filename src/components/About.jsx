@@ -1,7 +1,4 @@
-import React from 'react'
-import notbook from '../assets/notebookM.png'
-import about from '../assets/bgn.jpg'
-import Reveal, { Bounce, Fade, Flip } from "react-awesome-reveal"
+import  { Bounce } from "react-awesome-reveal"
 const About = () => {
   return (
     <div  className='text-white gap-4 max-w[1200px] mx-auto my-12 ml-20 mr-20 grid sm:grid-cols-2'  id='about'>
@@ -10,7 +7,7 @@ const About = () => {
         <div>
         <p className='text-4xl font-semibold border-b-4 border-gray-500 p-1 mt-10 inline'>About</p>
       </div>
-         <Bounce><h2 className='text-3xl font-medium mt-10 mb-4'>Software Developer dedicated 
+         <Bounce><h2 className='text-2xl font-medium mt-10 mb-4'>Software Developer dedicated 
          to improving skills through hands-on learning and development work.
          I am Proficient in Front End Development and 
           desktop development environments. Adept at using HTML5, JavaScript,
