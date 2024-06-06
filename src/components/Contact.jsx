@@ -13,8 +13,8 @@ const Contact = () => {
 
       <div className='flex justify-center'>
         <div className='my-auto text-purple-900'>
-          <a href=""><AiFillLinkedin className='w-[50px] h-auto mb-4'/></a>
-          <a href=""><AiFillGithub className='w-[50px] h-auto mb-4'/></a>
+          <a href="https://linkedin.com/in/jibrin-masud"><AiFillLinkedin className='w-[50px] h-auto mb-4'/></a>
+          <a href="https://github.com/jibrinmasud"><AiFillGithub className='w-[50px] h-auto mb-4'/></a>
           <a href=""><AiFillGoogleCircle className='w-[50px] h-auto'/></a>
         </div>
 
