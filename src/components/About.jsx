@@ -2,7 +2,7 @@ import { Bounce } from "react-awesome-reveal";
 const About = () => {
   return (
     <div
-      className="text-white gap-4 max-w[1200px] mx-auto my-12 ml-20 mr-20 grid sm:grid-cols-2"
+      className="text-white gap-4 max-w[1200px] mx-auto my-12 ml-40 mr-40 grid sm:grid-cols-2"
       id="about"
     >
       <div className="sm:col-span-2 glass sm:py-16 my-auto text-left p-4 ">

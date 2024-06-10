@@ -3,9 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <div
-      className="text-white gap-4 max-w[1200px] mx-auto my-12 ml-20 mr-20 grid sm:grid-cols-2s overflow-hidden md:overflow-visible"
-      id="hero"
-    >
+      className="text-white p-8 mt-10 gap-4 max-w[1200px] mx-auto my-6 ml-40 mr-40 grid sm:grid-cols-2s overflow-hidden md:overflow-visible"
+      id="hero">
       <div className="glass px-5 col-span-2 my-auto z-[-1]">
         <h2 className="text-white text-4xl sm:text-5lg lg:text-8xl font-bold p-4 md:p-0">
           <p className="md:mb-4 text-gray-500">I'm a</p>
